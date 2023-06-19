@@ -1,0 +1,69 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.schedule {
+    width: 100%;
+    height: 500px;
+    border: brown 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+    border: brown 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+input {
+    border: brown 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 30px 0;
+    margin: 0;
+}
+
+.result {
+    display: flex;
+    width: 50%;
+    border: brown 1px solid;
+    padding: 10px;
+    mai-height: 20px;
+}

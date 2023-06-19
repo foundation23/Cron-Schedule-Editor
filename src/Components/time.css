@@ -1,0 +1,6 @@
+.time{
+    display: flex;
+}
+.time__input{
+    padding-left: 5px;
+}

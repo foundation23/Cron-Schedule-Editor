@@ -1,0 +1,16 @@
+.weekly {
+    display: flex;
+    justify-content: center;
+}
+a:active{
+    background-color: aquamarine;
+}
+.selected{
+    border: aqua 1px solid;
+}
+.disable{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,13 @@
+.month {
+    display: flex;
+}
+
+.selected{
+    border: aqua 1px solid;
+}
+.disable{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
